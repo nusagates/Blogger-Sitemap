@@ -13,7 +13,7 @@ function fillTable(result) {
             }
             
             var script = document.createElement('script');
-            script.src = 'https://api.tynt.com/publisher/v1/keyword/inbound?site_guid=YOUR SECRET CODE&api_key=YOUR API KEY&hours=24&callback=fillTable';
+            script.src = 'https://api.tynt.com/publisher/v1/keyword/inbound?site_guid=dftXmKLVWr54nUaKltUXmc&api_key=726a6M6j374w386i3h4J3R983W7r4u3c&hours=24&callback=fillTable';
             script.async = 'async';
             document.getElementsByTagName('head')[0].appendChild(script);
 document.write(document.referrer);
