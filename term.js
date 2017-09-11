@@ -8,7 +8,7 @@ function fillTable(result) {
                 var table = document.getElementById('inbound_keywords').tBodies[0];
                 var data = result.data;
                 for (var i = 0; i < data.length; i++) {
-                    table.innerHTML += ['<tr>', '<td>', data[i][0], '</td>', '<td>', data[i][1], '</td>', '</tr>'].join(");
+                    table.innerHTML += ['<tr>', '<td>', data[i][0], '</td>', '<td>', data[i][1], '</td>', '</tr>'].join('');
                 }
             }
             
